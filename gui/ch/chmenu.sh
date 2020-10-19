@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 /home/administrator/BiosUnlocking/ch341amenu.py
+python3 ~/BiosUnlocking/chmenu.py

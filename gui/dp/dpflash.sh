@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 /home/administrator/BiosUnlocking/flash.py
+python3 dpflash.py

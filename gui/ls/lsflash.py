@@ -4,7 +4,7 @@ from guizero import App, PushButton
 
 def lsscan():
     process = subprocess.Popen(
-        "sudo gnome-terminal -x /home/administrator/BiosUnlocking/gui/lsscan.sh", 
+        "sudo gnome-terminal -x ./lsscan.sh", 
         stdout=subprocess.PIPE,
         stderr=None,
         shell=True
@@ -12,7 +12,7 @@ def lsscan():
 
 def lsflash9480m():
     process = subprocess.Popen(
-        "sudo gnome-terminal -x /home/administrator/BiosUnlocking/gui/ls9480m_W25Q128BV.sh", 
+        "sudo gnome-terminal -x ./ls9480m_W25Q128BV.sh", 
         stdout=subprocess.PIPE,
         stderr=None,
         shell=True
@@ -58,7 +58,7 @@ def close_window():
 
 app = App(title="Write(Flash) Chips")
 button1 = PushButton(app, command=lsscan, text="Scan Chip")
-button2 = PushButton(app, command=lsflash, text="Write Chips")
+button2 = PushButton(app, command=lsflash9480m, text="Write 9480m")
 button10 = PushButton(app, command=close_window, text="Close")
 
 

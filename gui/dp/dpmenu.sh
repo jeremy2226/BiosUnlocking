@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 /home/administrator/BiosUnlocking/dediprogmenu.py
+python3 ~/BiosUnlocking/gui/dp/dpmenu.py

@@ -21,13 +21,13 @@ def close_window3():
     window3.hide()
 
 def dpmenu():
-    process = subprocess.Popen("/home/administrator/BiosUnlocking/gui/dpmenu.sh")
+    process = subprocess.Popen("dp/dpmenu.sh")
 
 def chmenu():
-    process = subprocess.Popen("/home/administrator/BiosUnlocking/gui/chmenu.sh")
+    process = subprocess.Popen("ch/chmenu.sh")
 
 def lsmenu():
-    process = subprocess.Popen("/home/administrator/BiosUnlocking/gui/lsmenu.sh")
+    process = subprocess.Popen("ls/lsmenu.sh")
 
 def close_window():
     app.destroy()
